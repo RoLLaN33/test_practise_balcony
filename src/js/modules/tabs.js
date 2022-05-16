@@ -1,3 +1,5 @@
+//Tabs
+
 const tabs = (heaerSelector, tabSelector, contentSelector, activeClass) => {
     const header = document.querySelector(heaerSelector),
           tab = document.querySelectorAll(tabSelector),
