@@ -3,7 +3,7 @@ const modals = () => {
         const trigger = document.querySelectorAll(triggerSelector),
               modal = document.querySelector(modalSelector),
               close = document.querySelector(closeSelector),
-              windows = document.querySelectorAll('[data-modal');
+              windows = document.querySelectorAll('[data-modal]');
 
         trigger.forEach(item => {
             item.addEventListener('click', (e) => {
